@@ -8,7 +8,8 @@ public class StringUtilities {
      * @return `Hello World` as a string
      */
     public static String getHelloWorld() {
-        return null;
+
+        return "Hello World";
     }
 
     /**
@@ -17,7 +18,8 @@ public class StringUtilities {
      * @return the concatenation of two strings, `firstSegment`, and `secondSegment`
      */
     public static String concatenation(String firstSegment, String secondSegment){
-        return null;
+
+        return (String) firstSegment + secondSegment;
     }
 
     /**
@@ -26,7 +28,8 @@ public class StringUtilities {
      * @return the concatenation of an integer, `firstSegment`, and a String, `secondSegment`
      */
     public static String concatenation(int firstSegment, String secondSegment){
-        return null;
+
+        return firstSegment + secondSegment;
     }
 
     /**
@@ -34,7 +37,8 @@ public class StringUtilities {
      * @return the first 3 characters of `input`
      */
     public static String getPrefix(String input){
-        return null;
+    int a = input.length() ;
+        return input.toString( );      //something in ( +3? 3?) but what?!
     }
 
     /**
@@ -42,7 +46,9 @@ public class StringUtilities {
      * @return the last 3 characters of `input`
      */
     public static String getSuffix(String input){
-        return null;
+    int a = input.length() ;
+        return input.toString( ); // ( -3)?
+
     }
 
     /**
@@ -50,8 +56,9 @@ public class StringUtilities {
      * @param comparableValue the value to be compared against
      * @return the equivalence of two strings, `inputValue` and `comparableValue`
      */
-    public static Boolean compareTwoStrings(String inputValue, String comparableValue){
-        return null;
+    public static Boolean compareTwoStrings(String inputValue, String comparableValue)
+    {
+        return (inputValue.equals(comparableValue));
     }
 
     /**
@@ -59,6 +66,7 @@ public class StringUtilities {
      * @return the middle character of `inputValue`
      */
     public static Character getMiddleCharacter(String inputValue){
+
         return null;
     }
 
